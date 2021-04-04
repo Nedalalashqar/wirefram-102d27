@@ -12,6 +12,23 @@ for (var i = 0; i < userInput; i++){
     }
 }
 
+var userInput = prompt('Enter from 1 to 10 how much you love Toyota or Kia!');
+for(var i=0; userInput; i++){
+    if(carType == 'toyota'){
+
+    }
+}
+function printName() {
+    console.log('like page')
+}
+function printConsole(pram1 , pram2){
+    for(var i=pram1; i < pram2; i++){
+        console.log(i);
+
+    }
+}
+printName();
+printConsoleNumber(1,100);
 
 alert("JavaScript page Test");
 var userName = "Nedal";
