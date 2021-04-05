@@ -28,8 +28,12 @@ for (var i = 0; i < userInput; i++){
 }
 
 function printName(){
-    document.write('car');   
-    
+    console.log('car');  
 }
-    
-printName()
+function printConsolNmbur(p1 , p2){
+    for(var i = p1; i < p2 ; i++){
+        console.log(i)
+    }
+}    
+printName();
+printConsolNmbur(1,100);
