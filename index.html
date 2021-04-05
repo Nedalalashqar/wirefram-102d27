@@ -2,12 +2,12 @@
 <html>
     <head>
         <title> Test Page </title>
-        <script src="app.js"></script>
-        <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <img src="./img/flat_3.webp" alt="">
+            <img class='logo' src="./img/flat_3.webp" alt="">
             <nav>
                 <a href="">Nedal</a>
                 <a href="">Ali</a>
@@ -20,17 +20,22 @@
         </header>
         <main>
             <section>
-                <img style="height: 200px;width: 200px;" src="./img/illustration-logo.png" alt="">
+                <img id="heroImage" src="./img/illustration-logo.png" alt="">
             </section>
             <section>
                 <p>
                     Please visit the following website:
                 </p>
-                <ul>
-                    <li><a href="https://github.com/"></a>Github</li>
-                    <li><a href="https://canvas.instructure.com/"></a>Canvas</li>
-                    <li><a href="https://ltuc-asac.slack.com/"></a>Slack</li>
-                </ul>
+                <section class="table-section">
+                    <article>
+                        <ul>
+                            <li><a href="https://github.com/"></a>Github</li>
+                            <li><a href="https://canvas.instructure.com/"></a>Canvas</li>
+                            <li><a href="https://ltuc-asac.slack.com/"></a>Slack</li>
+                        </ul>
+                    </article>
+                </section>
+               
                 <section>
                     <form>
                         <label for="text">Username</label>
@@ -44,6 +49,12 @@
         </main>
         <footer>
         <p>all right reserved &copy;</p>
+        <nav>
+            <a href="">fb</a>
+            <a href="">tw</a>
+            <a href="">in</a>
+            <a href="">instagram</a>
+          </nav>
         </footer>
     </body>
 </html>
