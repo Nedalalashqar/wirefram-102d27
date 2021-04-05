@@ -1,52 +1,34 @@
-var carType = prompt('Plese enter care type');
-while(carType !== 'toyota' && carType !== 'kia'){
-    carType = prompt('Plese choose toyota or kia');
+alert('Hello Everyone');
+    
+
+var mathoperation=prompt('Please inter your name');
+document.write(mathoperation);
+
+console.log(mathoperation);
+
+
+alert('welcome to car lovers');
+
+var userInput = prompt('please enter car type toyota or kia');
+while(userInput !=='toyota' && userInput !=='kia'){
+    var userInput = prompt('Please choose toyota or kia');
 }
-var userInput = prompt('Plese enter number of the car!');
+
+var userInput =prompt('Please enter the number of car');
 
 for (var i = 0; i < userInput; i++){
-    if(carType == 'toyota') {
-        document.write('<img src="https://freevectorlogo.net/wp-content/uploads/2011/04/toyota-logo-vector-400x400.png" />');
-    }else {
-        document.write('<img src="http://topsat-eg.com/images/p12609f152b4f0d7fadb39d55b10adf51.png" />');
+    if(userInput == 'toyota'){
+        document.write('<img alt="toyota" src ="https://toyota.com.jo/sites/default/files/styles/slider_over_1200/public/2021-02/73027%20Toyota%20Websliders%201800x700_1.jpg?h=2c3775ab&itok=PDrcJT6c" width ="200"/>');
+
+    } else{
+        document.write('<img alt="kia" src ="https://www.tech-mag.net/wp-content/uploads/2019/12/2020-kia-k5-kdm-spec.jpg" width ="200"/>');
     }
+
 }
 
-var userInput = prompt('Enter from 1 to 10 how much you love Toyota or Kia!');
-for(var i=0; userInput; i++){
-    if(carType == 'toyota'){
-
-    }
+function printName(){
+    document.write('car');   
+    
 }
-function printName() {
-    console.log('like page')
-}
-function printConsole(pram1 , pram2){
-    for(var i=pram1; i < pram2; i++){
-        console.log(i);
-
-    }
-}
-printName();
-printConsoleNumber(1,100);
-
-alert("JavaScript page Test");
-var userName = "Nedal";
-document.write(userName);
-
-var mathOperation = 20;
-alert(mathOperation + 6);
-alert(mathOperation - 6);
-alert(mathOperation * 6);
-alert(mathOperation / 6);
-alert(mathOperation % 6);
-alert(mathOperation ** 6);
-
-var mathOperations = prompt("Please enter your number");
-if (mathOperations < 0){
-alert('This value is valid');
-} else if (mathOperations >= 0){
-    alert('This value is invalid');
-} else {
-    alert('Please enter a number');
-}
+    
+printName()
