@@ -19,6 +19,7 @@ var userInput =prompt('Please enter the number of car');
 for (var i = 0; i < userInput; i++){
     if(userInput == 'toyota'){
         document.write('<img alt="toyota" src ="https://toyota.com.jo/sites/default/files/styles/slider_over_1200/public/2021-02/73027%20Toyota%20Websliders%201800x700_1.jpg?h=2c3775ab&itok=PDrcJT6c" width ="200"/>');
+        console.log(userInput);
 
     } else{
         document.write('<img alt="kia" src ="https://www.tech-mag.net/wp-content/uploads/2019/12/2020-kia-k5-kdm-spec.jpg" width ="200"/>');
